@@ -1,7 +1,5 @@
-// Assuming you have an element with an ID 'image' that contains an image 
-
 // Get the image element
-const imageElement = document.getElementById('image');
+const imageElement = document.getElementById('b-sidecover a img');
 
 // Create a canvas element
 const canvas = document.createElement('canvas');
@@ -32,4 +30,5 @@ const avgGreen = Math.floor(sumGreen / (data.length / 4));
 const avgBlue = Math.floor(sumBlue / (data.length / 4));
 
 // Change the background color of the page
-document.body.style.backgroundColor = rgb(${avgRed}, ${avgGreen}, ${avgBlue});
+document.b-post__description.style.backgroundColor = rgb(${avgRed}, ${avgGreen}, ${avgBlue});
+};
